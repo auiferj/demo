@@ -20,5 +20,14 @@ public class SplitTest {
         SimpleIdGenerator simpleIdGenerator = new SimpleIdGenerator();
         UUID uuid = simpleIdGenerator.generateId();
         System.out.println("uuid = " + uuid);
+
+
+        String a = "";
+        String[] split2 = a.split(",");
+        for (String s : split2) {
+            //空字符串切割后：【“”】
+            System.out.println(s);
+        }
+
     }
 }
