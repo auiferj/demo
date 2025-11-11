@@ -12,5 +12,6 @@ public class MapTest {
         Object id2 = hashMap.putIfAbsent("id", 2);
         System.out.println("id2 = " + id2);
 
+        Map<String, String> hMap = new HashMap<>();
     }
 }
